@@ -1,0 +1,23 @@
+// theme colors
+$clr1: #39445a; 
+$clr2: #ffffff; 
+$clr3: #000000; 
+$clr4: #282c34; 
+
+
+// LAYOUT
+$layoutPadding: 0px;
+
+
+// Breakpoints
+$mobile-breakpoint: 550px;
+$narrow-breakpoint: 700px;
+$normal-breakpoint: 980px;
+$wide-breakpoint: 1000px;
+
+
+
+$padded-break-mobile: $mobile-breakpoint ;
+$padded-break-normal: $narrow-breakpoint ;
+$padded-break-narrow: $normal-breakpoint ;
+$padded-break-wide: $wide-breakpoint ;

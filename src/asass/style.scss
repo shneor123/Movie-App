@@ -1,0 +1,21 @@
+@import "react-alice-carousel/lib/scss/alice-carousel";
+
+// Setup
+@import "setup/variables";
+@import "setup/functions";
+@import "setup/mixins";
+@import "setup/typography";
+
+
+// Basics
+@import "basics/layout";
+@import "basics/bese";
+@import "basics/header";
+
+
+
+@import "cmps/singleContent";
+@import "cmps/contentModal";
+@import "cmps/trending";
+@import "cmps/carousel";
+@import "cmps/search";

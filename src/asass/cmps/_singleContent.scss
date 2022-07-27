@@ -1,0 +1,39 @@
+.media {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    background-color: $clr4;
+    border-radius: 10px;
+    position: relative;
+    font-family: "Mobtserrat", "sans-serif";
+
+    @include for-mobile-layout {
+        width: 46%;
+    }
+
+    &:hover {
+        background-color: $clr2;
+        color: $clr3;
+    }
+
+    .poster {
+        border-radius: 10px;
+    }
+
+    .title {
+        width: 100%;
+        text-align: center;
+        font-size: 17px;
+        padding: 8px 0;
+    }
+
+    .subTitle {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 3px;
+        padding: 0 2px;
+
+    }
+}

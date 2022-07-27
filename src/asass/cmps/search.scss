@@ -1,0 +1,10 @@
+.tabs {
+    padding-bottom: 60px;
+    margin-inline-start: 100px;
+    display: flex;
+    justify-content: space-between;
+
+    @include for-mobile-layout {
+        margin-inline-start: 0px;
+    }
+}
